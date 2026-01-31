@@ -1,0 +1,17 @@
+# Data Science & Math
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.13.0
+ipywidgets>=8.0.0
+
+# Cosmology Specific
+astropy>=5.2.0
+
+# Jupyter Environment
+notebook
+ipykernel

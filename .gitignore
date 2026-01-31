@@ -1,0 +1,61 @@
+# .gitignore for this Python project
+
+# Byte-compiled / cache
+*.py[cod]
+*.pyc
+__pycache__/
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+virtual_env/
+ENV/
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.eggs/
+
+# Testing, type checking, coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and secret files
+.env
+.env.*
+secrets.json
+
+# Misc
+*.egg
+*.manifest
+*.spec
+
+# Keep data/ committed unless you explicitly want to ignore it
+# data/
